@@ -8,17 +8,18 @@ body {
     text-align: center;
     margin: auto;
     padding: 0;
-}
-
-.container {
     max-width: 1400px;
     background: #b3d9ff;
 }
 
+.container {
+    
+}
+
 
 .text {
-    font-size: 24px;
-    margin: 30px;
+    font-size: 18px;
+    margin: 30px 15px;
     color: #595959;
 }
 
@@ -44,6 +45,13 @@ nav li {
 
 nav a {
     transition: all .5s;
+    color: blueviolet;
+    text-shadow: -2px -2px 0 0;
+}
+
+nav a:hover { 
+    color: blue; 
+    text-transform: uppercase;
 }
 
 a {
@@ -57,8 +65,7 @@ HEADER STYLES
 
 h1 {
     font-weight: bold;
-    padding: 10px 0;
-    margin-top: 0;
+    padding: 18px 0 14px;
 }
 
 header {
@@ -99,7 +106,7 @@ h4 {
 
 
 .main-img {
-    width: 90%;
+    width: 94%;
     max-height: none;   
 }
 
@@ -113,6 +120,7 @@ ul {
     list-style: none;
     text-align: center;
     padding: 0 0 20px 0;
+    margin-top: 0;
 }
 
 .contact {
@@ -129,11 +137,16 @@ hr {
 }
 
 h4 {
-    margin: 0 0 60px;
+    margin: 0 0 20px;
 }
 
 .link-2 {
     display: none;
+}
+
+footer.flex {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
@@ -164,15 +177,28 @@ MEDIA QUERIES
     h1 {
         padding: 30px 0;
     }
+    
+    h4 {
+        padding: 0 20px 20px 0;
+        margin-bottom: 40px;
+    }
 
     .profile-img {
-        max-width: 300px;
+        max-width: 250px;
         float: right;
-        margin: 0 30px;
+        margin: 0 15px 0 30px;
 }
+    
+    .skills {
+        padding: 40px 15px 80px;
+    }
     
     .skills-img {
         padding-top: 30px;
+    }
+    
+    header {
+        padding: 0 15px 40px;
     }
     
     header .text {
@@ -194,7 +220,7 @@ MEDIA QUERIES
     }
     
     .text {
-        height: 140px; /*to resolve verticle layout issue*/
+        height: 100px; 
     }
     
     
@@ -202,6 +228,11 @@ MEDIA QUERIES
         text-align: left;
         padding-top: 20px;  
     }
+    
+    .contact {
+        padding: 20px 15px 0;
+    }
+    
     
     .contact-text {
         height: 60px;
@@ -218,11 +249,15 @@ MEDIA QUERIES
     nav.link-2 {
         float: right;
         margin: 0;
-        padding-bottom: 44px;
+        padding-bottom: 0;
     }
     
     .link-1 {
         display: none;
+    }
+    
+    footer ul {
+        padding-bottom: 60px;
     }
 }
 
@@ -241,11 +276,12 @@ MEDIA QUERIES
     
     nav {
         float: right;
+        margin: 80px 60px 0 0;
     }
     
     
     nav ul li {
-        padding-left: 20px;
+        padding-left: 30px;
     }
     
     .flex {
@@ -308,13 +344,6 @@ MEDIA QUERIES
     
     footer.flex {
         height: 60px; 
-    }
-    
-    
-    
-    
-    
-    
-    
+    } 
 }
 
