@@ -126,6 +126,13 @@ hr {
     margin: 20px 30px;
 }
 
+h4 {
+    margin: 0 0 60px;
+}
+
+.link-2 {
+    display: none;
+}
 
 
 
@@ -142,6 +149,7 @@ MEDIA QUERIES
     nav ul {
         display: flex;
         justify-content: space-around;
+        margin: 0;
     }
 
     nav li {
@@ -197,5 +205,22 @@ MEDIA QUERIES
         height: 60px;
     }
     
+    .link-2 {
+        display: flex; 
+    }
+    
+    .link-2 li {
+        padding-left: 20px;
+    }
+    
+    nav.link-2 {
+        float: right;
+        margin: 0;
+        padding-bottom: 44px;
+    }
+    
+    .link-1 {
+        display: none;
+    }
 }
 
