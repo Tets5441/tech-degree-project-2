@@ -3,17 +3,16 @@
 }
 
 body {
-    font-family: roboto;
+    font-family: 'Oxygen', serif;
     color: darkslategray;
     text-align: center;
     margin: auto;
     padding: 0;
-    max-width: 1400px;
     background: #b3d9ff;
 }
 
 .container {
-    
+    max-width 1375px;
 }
 
 
@@ -66,6 +65,7 @@ HEADER STYLES
 h1 {
     font-weight: bold;
     padding: 18px 0 14px;
+    font-family: oxygen;
 }
 
 header {
@@ -128,10 +128,6 @@ ul {
     margin-bottom: 40px;
 }
 
-.contact-card {
-    margin-bottom: 80px;
-}
-
 hr {
     margin: 20px 30px;
 }
@@ -179,8 +175,8 @@ MEDIA QUERIES
     }
     
     h4 {
-        padding: 0 20px 20px 0;
-        margin-bottom: 40px;
+        padding: 0 20px 0 0;
+        margin-bottom: auto;
     }
 
     .profile-img {
@@ -190,18 +186,17 @@ MEDIA QUERIES
 }
     
     .skills {
-        padding: 40px 15px 80px;
+        height: 350px;
+        padding: 40px 15px 0;
     }
     
-    .skills-img {
-        padding-top: 30px;
-    }
     
     header {
         padding: 0 15px 40px;
     }
     
     header .text {
+        font-size: 24px;
         text-align: left;
         margin-top: 0;
     }
@@ -227,15 +222,21 @@ MEDIA QUERIES
     .skills-text {
         text-align: left;
         padding-top: 20px;  
+        font-size: 24px;
+        height: 140px;
     }
     
     .contact {
         padding: 20px 15px 0;
+        height: 320px;
+        margin-bottom: 0;
     }
     
     
     .contact-text {
         height: 60px;
+        font-size: 24px;
+        margin: 0 50px;
     }
     
     .link-2 {
@@ -269,9 +270,23 @@ MEDIA QUERIES
         height: 250px;
     }
     
+    header .text {
+        font-size: 24px;
+        height: 120px;
+    }
+    
+    .skills-text {
+        font-size: 24px;
+        height: 130px;
+    }
+    
+    .text.skills-text {
+        padding-left: 0;
+    }
+    
     h1 {
         float: left ; 
-        padding: 80px 0 30px 60px;
+        padding: 50px 0 30px 60px;
     }
     
     nav {
@@ -298,19 +313,18 @@ MEDIA QUERIES
     
     .profile-img {
         padding-right: 30px;
-        max-width: 400px;
+        max-width: 300px;
     }
-    
     
     .skills {
         height: 400px;
+        margin-top: 0;
     }
     
     .card {
         max-width: 33.333%;
-        max-height: 360px;
-        padding: 7px;
-        
+        max-height: 400px;
+        padding: 7px;        
     }
     
     .text-flex {
@@ -320,16 +334,21 @@ MEDIA QUERIES
         height: 120px;
     }
     
-    footer.flex{
-        height: 40px;
+    .contact-text {
+        margin: 0 200px;
+        padding-left: 0;
     }
     
-    h4 {
-        margin-bottom: 20px;
+    hr {
+        margin: 20px 60px;
+    }
+    
+    footer.flex{
+        height: 40px;
+        padding: 0 60px;
     }
     
     h4.name {
-        margin-bottom: 0;
         margin-bottom: 20px;
     }
     
