@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Oxygen', serif;
+    font-family: 'Oxygen', sans-serif;
     color: darkslategray;
     text-align: center;
     margin: auto;
@@ -110,7 +110,7 @@ h3 {
 }
 
 .skills-text {
-    font-family: Tangerine;
+    font-family: 'Satisfy', cursive;
     font-size: 30px;
 }
 
@@ -224,7 +224,7 @@ MEDIA QUERIES
     
     .skills-text {
         text-align: left; 
-        font-size: 34px;
+        font-size: 24px;
         height: 140px;
     }
     
